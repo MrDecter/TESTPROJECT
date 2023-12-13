@@ -22,9 +22,7 @@ package oop_practice;
  */
 public class Phone {
     //Создание приватных переменных
-    private String number;
-    private String model;
-    private String weight;
+    private String number,model,weight;
 
     //Установка геттеров и сеттеров
     public String getNumber() {return number;}

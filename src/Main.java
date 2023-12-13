@@ -1,13 +1,20 @@
 import other.goblin_game.*;
+import oop_practice.*;
+
+import java.util.Arrays;
+
 /**
  * 1. Практика в ООП
  *  1.1 Работа с классом Phone
  *  1.2 Работа с классом Person
+ *  1.3 Работа с классом Matrix
+ * 2. Другое
+ *  2.1 Goblin Game
  */
 public class Main {
     public static void main(String[] args) {
         /*
-                                                                                                    //1.1 Практика по Phone
+                                                                                                //1.1 Практика по Phone
         Phone phone1 = new Phone("89193555255", "Samsung", "30sm");
         System.out.println("На ваш номер: " + phone1.getNumber() + " поступил звонок!");
         phone1.recerev_call("Служба безопастности Сбербанка");
@@ -25,8 +32,14 @@ public class Main {
         System.out.println("Хорошо, удачи " + Jack.getFullName() + "!");
          */
 
+        Reader client1 = new Reader("Vadim","Nicolaevich","Boilogi","001","25.02.1997","+79517802997");
+        client1.all_info();
+        client1.take_book("Vadim", "Nicolaevich");
 
+        /*
+                                                                                                    //2.1 Goblin game
         Gamer Player1 = new Gamer();
         Player1.generate_gamer();
+         */
     }
 }
