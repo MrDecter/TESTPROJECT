@@ -43,12 +43,4 @@ public class Gamer {
                 "\nЛовкость: " + dexterity +
                 "\nУдача: " + luck);
     }
-
-    public void gamer_creation(){
-        int point;
-
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Введите имя: ");
-        this.name = scan.nextLine();
-    }
 }

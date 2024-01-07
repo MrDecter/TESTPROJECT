@@ -46,6 +46,10 @@ public class Main {
                                                                                                     //2.1 Goblin game
         Gamer Player1 = new Gamer();
         Player1.generate_gamer();
+        int xp = 1;
+        int lvl = 1;
+        int step = 0;
+
     }
 }
 
