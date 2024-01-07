@@ -1,7 +1,7 @@
-import other.goblin_game.*;
-import oop_practice.*;
-
 import java.util.Arrays;
+import java.util.Scanner;
+import other.goblin_game.Gamer;
+
 
 /**
  * 1. Практика в ООП
@@ -21,6 +21,8 @@ public class Main {
         Phone.send_message("Вашу карту заблокировали, просьба сообщите CVV код для разблокировки!");
          */
 
+
+
         /*
                                                                                                 //1.2 Практика по Person
         Person Jack = new Person("Jack", "25");
@@ -32,14 +34,18 @@ public class Main {
         System.out.println("Хорошо, удачи " + Jack.getFullName() + "!");
          */
 
+
+        /*
+                                                                                                //1.3 Проверка по Reader
         Reader client1 = new Reader("Vadim","Nicolaevich","Boilogi","001","25.02.1997","+79517802997");
         client1.all_info();
         client1.take_book("Vadim", "Nicolaevich");
 
-        /*
+         */
+
                                                                                                     //2.1 Goblin game
         Gamer Player1 = new Gamer();
         Player1.generate_gamer();
-         */
     }
 }
+
