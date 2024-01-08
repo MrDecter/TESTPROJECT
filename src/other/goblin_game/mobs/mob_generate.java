@@ -1,7 +1,7 @@
 package other.goblin_game.mobs;
 
 import java.util.Random;
-
+//Доработать генерацию мобов
 public class mob_generate {
     Random random = new Random();
 
