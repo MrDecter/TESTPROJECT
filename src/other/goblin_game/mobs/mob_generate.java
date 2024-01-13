@@ -5,7 +5,7 @@ import java.util.Random;
 public class mob_generate {
     Random random = new Random();
 
-
+/*
 
     public mini_goblin(){
         String name = "Мини-гоблин";
@@ -61,4 +61,6 @@ public class mob_generate {
         int dexterity = random.nextInt(4) + 1;
         int luck = random.nextInt(4) + 1;
     }
+
+ */
 }
