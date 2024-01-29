@@ -1,5 +1,8 @@
 package Lesson;
 
+/**
+ * Функция поиска кол-ва элемента х в массиве
+ * */
 public class NumElemArray {
 
     public static void main(String[] args){
@@ -9,8 +12,8 @@ public class NumElemArray {
         int x = 3;
         int result = 0;
 
-        for (int i = 0; i < arrayX.length; i++) {
-            if (arrayX[i] == x){
+        for (int j : arrayX) {
+            if (j == x) {
                 result++;
             }
         }

@@ -1,7 +1,9 @@
 package Lesson;
 
 import java.util.Arrays;
-
+/**
+ * Функция поиска числового элемента в массиве
+ * */
 public class elementSearch {
     public static void main(String[] args){
 

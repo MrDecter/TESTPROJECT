@@ -1,7 +1,9 @@
 package Lesson;
 
 import java.util.Arrays;
-
+/**
+ * Функция зеркального отображения массива
+ * */
 public class mirroredArray {
     public static void main(String[] args){
 

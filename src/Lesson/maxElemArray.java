@@ -1,5 +1,8 @@
 package Lesson;
 
+/**
+ * Функция поиска максимального значения в массиве
+ * */
 public class maxElemArray {
 
     public static void main(String[] args){

@@ -1,7 +1,10 @@
 package Lesson;
 
 import java.util.Arrays;
-
+/**
+ * Функуция поиска суммы чисел в массиве
+ */
+/
 public class sumArrays {
     public static void main(String[] args){
 
