@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92fc53dd-fb4c-424b-acec-b50d87b83c5b" name="Changes" comment="Добавление массива в класс Reader">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="92fc53dd-fb4c-424b-acec-b50d87b83c5b" name="Changes" comment="Добавление комментариев с описанием кода">
+      <change afterPath="$PROJECT_DIR$/src/oop_practice/Oop_Main_Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson/sumArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson/sumArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/economic_form/Econimoc_Formulas.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +26,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2ZHmbP335bm9YgYbABD4FZvzxyn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,13 +43,25 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Econimoc_Formulas.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumElemArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringMetods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.copyingArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.elementSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.maxElemArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mirroredArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.stringAndFor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sumArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testing.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/MrDecter/IdeaProjects/TESTPROJECT&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -52,10 +71,80 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager" selected="Application.testing">
+    <configuration name="Econimoc_Formulas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="economic_form.Econimoc_Formulas" />
+      <module name="TESTPROJECT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="economic_form.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumElemArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson.NumElemArray" />
+      <module name="TESTPROJECT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringMetods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson.StringMetods" />
+      <module name="TESTPROJECT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stringAndFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson.stringAndFor" />
+      <module name="TESTPROJECT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testing" />
+      <module name="TESTPROJECT" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.testing" />
+        <item itemvalue="Application.Econimoc_Formulas" />
+        <item itemvalue="Application.NumElemArray" />
+        <item itemvalue="Application.StringMetods" />
+        <item itemvalue="Application.stringAndFor" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-e1d2075fd9a7-b4911678" />
       </set>
     </attachedChunks>
   </component>
@@ -74,6 +163,11 @@
       <workItem from="1702509421990" duration="2315000" />
       <workItem from="1702763267363" duration="3321000" />
       <workItem from="1703954127137" duration="7000" />
+      <workItem from="1704593655816" duration="4595000" />
+      <workItem from="1704822680427" duration="285000" />
+      <workItem from="1705128507378" duration="601000" />
+      <workItem from="1705129125648" duration="645000" />
+      <workItem from="1705176034158" duration="8159000" />
     </task>
     <task id="LOCAL-00001" summary="Практика по ООП в классе Phone">
       <option name="closed" value="true" />
@@ -115,7 +209,87 @@
       <option name="project" value="LOCAL" />
       <updated>1702511613220</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Добавление README.md">
+      <option name="closed" value="true" />
+      <created>1704594650146</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704594650146</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Добавление README.md">
+      <option name="closed" value="true" />
+      <created>1704594750334</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704594750334</updated>
+    </task>
+    <task id="LOCAL-00008" summary="-Добавление генерации мобов&#10;Нужно оптимизировать добавленную часть кода">
+      <option name="closed" value="true" />
+      <created>1704604267649</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704604267649</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Добавление комментариев">
+      <option name="closed" value="true" />
+      <created>1704747335455</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704747335455</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Добавление урока по копированию массивов">
+      <option name="closed" value="true" />
+      <created>1705176763658</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705176763658</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Добавление урока по сумме массива">
+      <option name="closed" value="true" />
+      <created>1705177103426</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705177103426</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Добавление урока по поиску максимального элемента в массиве">
+      <option name="closed" value="true" />
+      <created>1705177335779</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705177335779</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Добавление урока по выявлению кол-ва элемента в массиве">
+      <option name="closed" value="true" />
+      <created>1705178166137</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705178166137</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Добавление урока по выявлению кол-ва элемента в массиве">
+      <option name="closed" value="true" />
+      <created>1705178668991</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1705178668991</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Добавление комментариев с описанием кода">
+      <option name="closed" value="true" />
+      <created>1706572217215</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1706572217215</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +300,14 @@
     <MESSAGE value="Обновление описания" />
     <MESSAGE value="-Добавление раздела &quot;другое&quot;&#10;-Добавление GoblinGame&#10;-Добавление функционала создания персонажа с случайными характеристиками." />
     <MESSAGE value="Добавление массива в класс Reader" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавление массива в класс Reader" />
+    <MESSAGE value="Добавление README.md" />
+    <MESSAGE value="-Добавление генерации мобов&#10;Нужно оптимизировать добавленную часть кода" />
+    <MESSAGE value="Добавление комментариев" />
+    <MESSAGE value="Добавление урока по копированию массивов" />
+    <MESSAGE value="Добавление урока по сумме массива" />
+    <MESSAGE value="Добавление урока по поиску максимального элемента в массиве" />
+    <MESSAGE value="Добавление урока по выявлению кол-ва элемента в массиве" />
+    <MESSAGE value="Добавление комментариев с описанием кода" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление комментариев с описанием кода" />
   </component>
 </project>
