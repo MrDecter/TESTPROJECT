@@ -1,5 +1,8 @@
 package ErrorHandlng;
 
+import java.io.IOException;
+import java.util.logging.*;
+
 /**
  * Исключения - это любая ошибка, которая возникает в ходе выполнения программы.
  * У всех исключений есть общий класс-предок Throwable.
@@ -22,11 +25,23 @@ package ErrorHandlng;
  *
  * */
 public class Main_Error_info {
-    public static void main(String[] args) {
+    static final Logger logger = Logger.getLogger(Dog.class.getName());
+    public static void main(String[] args) throws IOException {
+                                                //Создание логера и отображение уровней
+        logger.log(Level.FINE,"fine");
+        logger.log(Level.INFO,"info");
+        logger.log(Level.WARNING,"warning", new Throwable());
+
+        Handler  consolehandler = new ConsoleHandler();
+        Handler  Filehandler = new FileHandler();
+        logger.setUseParentHandlers(false);     //Отключение родительского отображения
+        logger.addHandler(Filehandler);         //Создание файла логирования
+        logger.info("info");               //Пример иной записи
 
         Dog dog = new Dog("Мухтар");
         dog.putCollar();
         dog.putMuzzle();
+                                                //Обработка и использование исключений try\catch
         try {
             dog.walk();
         } catch (DogIsNotReadyException e) {
